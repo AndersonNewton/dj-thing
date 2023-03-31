@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AI DJ WEB APP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js" ></script>
+
+</head>
+<body>
+<center>
+  	<h3 class="btn btn-warning" id="t_12">AI DJ WEB APP
+	    <br>
+	    <span id="t_11">NOTE - Get your left wrist in fornt of the webcam to play Peter-Pan Song. Get your right wrist in fornt of the webcam to play Harry Potter Theme.</span>
+  	</h3>
+	<br><br>
+  <label id="songnm" class="btn btn-primary">Song name</label>
+ <br> <br>
+  <button class="btn btn-success" onclick="playMusic()">Play</button>
+  &nbsp; &nbsp;
+  <button class="btn btn-danger" onclick="stopMusic()">Stop</button>
+  <br> <br>
+ 
+</center>
+
+<script src="main.js"></script>
+</body>
+</html> 
